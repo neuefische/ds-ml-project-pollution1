@@ -1,0 +1,109 @@
+,model,scaler,R2,RMSE,duration,not null gt,exclude,columns
+0,XGBoost,quantile,51.0,32.0,2.0,20,sat geometry,37
+1,XGBoost,quantile,56.0,30.0,0.0,20,all sat data,7
+2,XGBoost,quantile,57.0,30.0,3.0,20,nothing,68
+3,XGBoost,quantile,52.0,32.0,1.0,80,sat geometry,27
+4,XGBoost,quantile,56.0,30.0,0.0,80,all sat data,7
+5,XGBoost,quantile,56.0,30.0,2.0,80,nothing,50
+6,XGBoost,quantile,51.0,32.0,1.0,90,sat geometry,24
+7,XGBoost,quantile,56.0,30.0,0.0,90,all sat data,7
+8,XGBoost,quantile,51.0,32.0,1.0,90,nothing,42
+9,XGBoost,robust,48.0,33.0,1.0,20,sat geometry,37
+10,XGBoost,robust,58.0,30.0,0.0,20,all sat data,7
+11,XGBoost,robust,53.0,31.0,1.0,20,nothing,68
+12,XGBoost,robust,52.0,32.0,1.0,80,sat geometry,27
+13,XGBoost,robust,58.0,30.0,0.0,80,all sat data,7
+14,XGBoost,robust,55.0,31.0,1.0,80,nothing,50
+15,XGBoost,robust,52.0,32.0,0.0,90,sat geometry,24
+16,XGBoost,robust,58.0,30.0,0.0,90,all sat data,7
+17,XGBoost,robust,54.0,31.0,1.0,90,nothing,42
+18,XGBoost,power,50.0,32.0,1.0,20,sat geometry,37
+19,XGBoost,power,57.0,30.0,0.0,20,all sat data,7
+20,XGBoost,power,55.0,31.0,2.0,20,nothing,68
+21,XGBoost,power,50.0,32.0,1.0,80,sat geometry,27
+22,XGBoost,power,57.0,30.0,0.0,80,all sat data,7
+23,XGBoost,power,54.0,31.0,1.0,80,nothing,50
+24,XGBoost,power,50.0,32.0,0.0,90,sat geometry,24
+25,XGBoost,power,57.0,30.0,0.0,90,all sat data,7
+26,XGBoost,power,56.0,30.0,1.0,90,nothing,42
+27,Linear Regression 1,quantile,64.0,28.0,1.0,20,sat geometry,37
+28,Linear Regression 1,quantile,60.0,29.0,0.0,20,all sat data,7
+29,Linear Regression 1,quantile,63.0,28.0,1.0,20,nothing,68
+30,Linear Regression 1,quantile,63.0,28.0,0.0,80,sat geometry,27
+31,Linear Regression 1,quantile,60.0,29.0,0.0,80,all sat data,7
+32,Linear Regression 1,quantile,63.0,28.0,1.0,80,nothing,50
+33,Linear Regression 1,quantile,62.0,28.0,0.0,90,sat geometry,24
+34,Linear Regression 1,quantile,60.0,29.0,0.0,90,all sat data,7
+35,Linear Regression 1,quantile,63.0,28.0,1.0,90,nothing,42
+36,Linear Regression 1,robust,62.0,28.0,1.0,20,sat geometry,37
+37,Linear Regression 1,robust,59.0,29.0,0.0,20,all sat data,7
+38,Linear Regression 1,robust,62.0,28.0,1.0,20,nothing,68
+39,Linear Regression 1,robust,62.0,28.0,0.0,80,sat geometry,27
+40,Linear Regression 1,robust,59.0,29.0,0.0,80,all sat data,7
+41,Linear Regression 1,robust,62.0,28.0,1.0,80,nothing,50
+42,Linear Regression 1,robust,61.0,28.0,0.0,90,sat geometry,24
+43,Linear Regression 1,robust,59.0,29.0,0.0,90,all sat data,7
+44,Linear Regression 1,robust,61.0,28.0,0.0,90,nothing,42
+45,Linear Regression 1,power,63.0,28.0,1.0,20,sat geometry,37
+46,Linear Regression 1,power,59.0,29.0,0.0,20,all sat data,7
+47,Linear Regression 1,power,63.0,28.0,1.0,20,nothing,68
+48,Linear Regression 1,power,63.0,28.0,0.0,80,sat geometry,27
+49,Linear Regression 1,power,59.0,29.0,0.0,80,all sat data,7
+50,Linear Regression 1,power,63.0,28.0,1.0,80,nothing,50
+51,Linear Regression 1,power,62.0,28.0,0.0,90,sat geometry,24
+52,Linear Regression 1,power,59.0,29.0,0.0,90,all sat data,7
+53,Linear Regression 1,power,62.0,28.0,0.0,90,nothing,42
+54,Random Forest,quantile,45.0,34.0,10.0,20,sat geometry,37
+55,Random Forest,quantile,49.0,33.0,4.0,20,all sat data,7
+56,Random Forest,quantile,52.0,32.0,15.0,20,nothing,68
+57,Random Forest,quantile,46.0,34.0,8.0,80,sat geometry,27
+58,Random Forest,quantile,49.0,33.0,3.0,80,all sat data,7
+59,Random Forest,quantile,51.0,32.0,12.0,80,nothing,50
+60,Random Forest,quantile,41.0,35.0,7.0,90,sat geometry,24
+61,Random Forest,quantile,49.0,33.0,3.0,90,all sat data,7
+62,Random Forest,quantile,48.0,33.0,10.0,90,nothing,42
+63,Random Forest,robust,46.0,34.0,10.0,20,sat geometry,37
+64,Random Forest,robust,49.0,33.0,3.0,20,all sat data,7
+65,Random Forest,robust,52.0,32.0,16.0,20,nothing,68
+66,Random Forest,robust,45.0,34.0,8.0,80,sat geometry,27
+67,Random Forest,robust,49.0,33.0,4.0,80,all sat data,7
+68,Random Forest,robust,51.0,32.0,12.0,80,nothing,50
+69,Random Forest,robust,41.0,35.0,7.0,90,sat geometry,24
+70,Random Forest,robust,49.0,33.0,4.0,90,all sat data,7
+71,Random Forest,robust,47.0,33.0,10.0,90,nothing,42
+72,Random Forest,power,46.0,34.0,11.0,20,sat geometry,37
+73,Random Forest,power,49.0,33.0,4.0,20,all sat data,7
+74,Random Forest,power,51.0,32.0,16.0,20,nothing,68
+75,Random Forest,power,46.0,34.0,8.0,80,sat geometry,27
+76,Random Forest,power,49.0,33.0,4.0,80,all sat data,7
+77,Random Forest,power,51.0,32.0,12.0,80,nothing,50
+78,Random Forest,power,41.0,35.0,7.0,90,sat geometry,24
+79,Random Forest,power,49.0,33.0,4.0,90,all sat data,7
+80,Random Forest,power,48.0,33.0,11.0,90,nothing,42
+81,LGBoost,quantile,44.0,34.0,1.0,20,sat geometry,37
+82,LGBoost,quantile,26.0,39.0,0.0,20,all sat data,7
+83,LGBoost,quantile,50.0,32.0,1.0,20,nothing,68
+84,LGBoost,quantile,43.0,35.0,1.0,80,sat geometry,27
+85,LGBoost,quantile,26.0,39.0,0.0,80,all sat data,7
+86,LGBoost,quantile,51.0,32.0,1.0,80,nothing,50
+87,LGBoost,quantile,40.0,35.0,0.0,90,sat geometry,24
+88,LGBoost,quantile,26.0,39.0,0.0,90,all sat data,7
+89,LGBoost,quantile,46.0,33.0,1.0,90,nothing,42
+90,LGBoost,robust,44.0,34.0,1.0,20,sat geometry,37
+91,LGBoost,robust,27.0,39.0,0.0,20,all sat data,7
+92,LGBoost,robust,51.0,32.0,1.0,20,nothing,68
+93,LGBoost,robust,43.0,34.0,0.0,80,sat geometry,27
+94,LGBoost,robust,27.0,39.0,0.0,80,all sat data,7
+95,LGBoost,robust,51.0,32.0,1.0,80,nothing,50
+96,LGBoost,robust,39.0,36.0,0.0,90,sat geometry,24
+97,LGBoost,robust,27.0,39.0,0.0,90,all sat data,7
+98,LGBoost,robust,47.0,33.0,0.0,90,nothing,42
+99,LGBoost,power,43.0,34.0,1.0,20,sat geometry,37
+100,LGBoost,power,27.0,39.0,0.0,20,all sat data,7
+101,LGBoost,power,51.0,32.0,1.0,20,nothing,68
+102,LGBoost,power,43.0,35.0,0.0,80,sat geometry,27
+103,LGBoost,power,27.0,39.0,0.0,80,all sat data,7
+104,LGBoost,power,50.0,32.0,1.0,80,nothing,50
+105,LGBoost,power,42.0,35.0,0.0,90,sat geometry,24
+106,LGBoost,power,27.0,39.0,0.0,90,all sat data,7
+107,LGBoost,power,47.0,33.0,1.0,90,nothing,42
