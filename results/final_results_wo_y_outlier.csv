@@ -1,2 +1,3 @@
-,model,scaler,R2,RMSE,duration,not null gt,exclude,columns
-0,XGBoost,power,69.85322306058401,0.18725398482743438,377.0,20,sat geometry,37
+,model,scaler,R2 Train,R2 Test,RMSE Train,RMSE Test,duration,not null gt,exclude,columns
+0,XGBoost,power,75.89008826396187,67.40190382615204,0.162572968087328,0.19209456475727382,696.0,20,sat geometry,37
+1,Elastic_Net,power,70.92741572876551,70.05889039579294,0.17852224657689592,0.184099625059816,659.0,20,sat geometry,37
