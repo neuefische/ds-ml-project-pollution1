@@ -1,0 +1,2 @@
+,model,scaler,R2,RMSE,duration,not null gt,exclude,columns
+0,XGBoost,power,69.85322306058401,0.18725398482743438,377.0,20,sat geometry,37
