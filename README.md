@@ -102,7 +102,7 @@ Or ....
 - Install the virtual environment and the required packages by following commands:
 
     ```BASH
-    pyenv local 3.11.3
+    pyenv local 3.12.7
     python -m venv .venv
     source .venv/bin/activate
     pip install --upgrade pip
@@ -116,7 +116,7 @@ Or ....
    For `PowerShell` CLI :
 
     ```PowerShell
-    pyenv local 3.11.3
+    pyenv local 3.12.7
     python -m venv .venv
     .venv\Scripts\Activate.ps1
     python -m pip install --upgrade pip
@@ -126,7 +126,7 @@ Or ....
     For `Git-bash` CLI :
   
     ```BASH
-    pyenv local 3.11.3
+    pyenv local 3.12.7
     python -m venv .venv
     source .venv/Scripts/activate
     python -m pip install --upgrade pip
