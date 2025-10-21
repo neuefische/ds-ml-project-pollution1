@@ -1,0 +1,3 @@
+,model,scaler,R2,RMSE,duration,not null gt,exclude,columns
+0,XGBoost,power,67.0,0.0,56.0,20,sat geometry,37
+1,Linear Regression 1,power,71.0,0.0,55.0,20,sat geometry,37
